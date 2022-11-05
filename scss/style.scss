@@ -3,4 +3,14 @@
 @import "layout/_grid.scss";
 @import "layout/_header.scss";
 @import "layout/_background.scss";
+@import "layout/_about.scss";
+@import "layout/_start.scss";
+@import "layout/_profession.scss";
+@import "layout/_partners.scss";
+@import "layout/_study.scss";
+@import "layout/_teachers.scss";
+@import "layout/_footer.scss";
 @import "layout/_media.scss";
+body {
+background-image: url(../img/bgc.png);
+}

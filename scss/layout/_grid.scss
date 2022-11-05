@@ -5,7 +5,7 @@
                         "main"
                         "footer";
     min-height: 100vh;
-    font-family: 'Roboto,sans-serif';
+    font-family: 'Roboto';
 }
 .header {
     display: grid;
@@ -17,7 +17,15 @@
 .main {
     display: grid;
     grid-area: main;
-    grid-template:1fr/ 1fr minmax(200px,1300px)1fr;
+    grid-template-columns: 1fr;
+}
+.background {
+    display: grid;
+}
+.content {
+    display: grid;
+    grid-template:1fr/1fr minmax(200px,1300px)1fr;
+    padding: 0 15px;
 }
 .footer {
     display: grid;
